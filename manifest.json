@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Chess.com Book Move Assistant",
+  "version": "1.0",
+  "host_permissions": [
+    "https://explorer.lichess.ovh/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.chess.com/*"],
+      "js": ["chess.js", "content.js"] 
+    }
+  ]
+}

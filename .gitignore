@@ -1,0 +1,9 @@
+# Python stuff to ignore
+__pycache__/
+*.pyc
+venv/
+*.env
+
+# Browser / OS junk to ignore
+.DS_Store
+node_modules/
