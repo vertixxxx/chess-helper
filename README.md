@@ -25,7 +25,7 @@ Because Lichess requires authentication for their Explorer API, you will need a 
 
 
 1. **Clone the repository:**
-   git clone [https://github.com/YOUR_USERNAME/chess-book-assistant.git](https://github.com/YOUR_USERNAME/chess-book-assistant.git)
+   git clone [https://github.com/YOUR_USERNAME/chess-book-assistant.git](https://github.com/vertixxxx/chess-book-assistant.git)
 2. Add your Lichess Token:
 Open the background.js file and replace the placeholder with your actual token:  const LICHESS_TOKEN = "lip_YOUR_SECRET_TOKEN_HERE";
 
